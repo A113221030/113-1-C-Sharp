@@ -35,6 +35,7 @@
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -45,7 +46,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 127);
+            pictureBox1.Location = new Point(30, 127);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(96, 137);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -57,7 +58,7 @@
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(171, 127);
+            pictureBox2.Location = new Point(193, 127);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(96, 137);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -80,7 +81,7 @@
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(549, 127);
+            pictureBox4.Location = new Point(513, 127);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(96, 137);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -92,7 +93,7 @@
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(692, 127);
+            pictureBox5.Location = new Point(677, 127);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(96, 137);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -102,18 +103,30 @@
             // 
             // button1
             // 
-            button1.Location = new Point(285, 316);
+            button1.Location = new Point(267, 338);
             button1.Name = "button1";
             button1.Size = new Size(263, 100);
             button1.TabIndex = 5;
-            button1.Text = "顯示";
+            button1.Text = "離開";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(272, 290);
+            button2.Name = "button2";
+            button2.Size = new Size(258, 23);
+            button2.TabIndex = 6;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
@@ -138,5 +151,6 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Button button1;
+        private Button button2;
     }
 }
