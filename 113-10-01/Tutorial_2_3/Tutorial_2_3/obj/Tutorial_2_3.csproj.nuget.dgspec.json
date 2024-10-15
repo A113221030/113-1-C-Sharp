@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj": {}
+    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj": {
+    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj",
+        "projectUniqueName": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj",
         "projectName": "Tutorial_2_3",
-        "projectPath": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj",
+        "projectPath": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\Tutorial_2_3.csproj",
         "packagesPath": "C:\\Users\\shu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\obj\\",
+        "outputPath": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\113-10-01\\Tutorial_2_3\\Tutorial_2_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

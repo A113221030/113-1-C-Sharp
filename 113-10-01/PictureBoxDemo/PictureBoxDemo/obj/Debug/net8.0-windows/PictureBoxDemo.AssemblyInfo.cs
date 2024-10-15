@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PictureBoxDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff4d66b4de97bd55a4ea2ba60df2585868e6f38e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1451d9253d6ec027340c4a8c0d49b2f7f824d5f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PictureBoxDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PictureBoxDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
