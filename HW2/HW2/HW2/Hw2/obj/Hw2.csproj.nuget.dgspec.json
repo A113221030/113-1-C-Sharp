@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\Hw2\\Hw2\\Hw2.csproj": {}
+    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\HW2\\Hw2\\Hw2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\Hw2\\Hw2\\Hw2.csproj": {
+    "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\HW2\\Hw2\\Hw2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\Hw2\\Hw2\\Hw2.csproj",
+        "projectUniqueName": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\HW2\\Hw2\\Hw2.csproj",
         "projectName": "Hw2",
-        "projectPath": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\Hw2\\Hw2\\Hw2.csproj",
+        "projectPath": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\HW2\\Hw2\\Hw2.csproj",
         "packagesPath": "C:\\Users\\shu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\shu\\Desktop\\113-1-C-Sharp\\HW2\\HW2\\Hw2\\Hw2\\obj\\",
         "projectStyle": "PackageReference",
