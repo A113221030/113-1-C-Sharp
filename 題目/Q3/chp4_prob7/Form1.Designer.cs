@@ -34,45 +34,47 @@
             this.netIncomeLabel = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.payableLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 21);
+            this.label1.Location = new System.Drawing.Point(35, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 13);
+            this.label1.Size = new System.Drawing.Size(136, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter your Taxable Income:";
             // 
             // incomeTextBox
             // 
-            this.incomeTextBox.Location = new System.Drawing.Point(40, 55);
+            this.incomeTextBox.Location = new System.Drawing.Point(39, 64);
             this.incomeTextBox.Name = "incomeTextBox";
-            this.incomeTextBox.Size = new System.Drawing.Size(168, 20);
+            this.incomeTextBox.Size = new System.Drawing.Size(168, 22);
             this.incomeTextBox.TabIndex = 1;
+            this.incomeTextBox.TextChanged += new System.EventHandler(this.incomeTextBox_TextChanged);
             // 
             // taxPayableLabel
             // 
             this.taxPayableLabel.AutoSize = true;
-            this.taxPayableLabel.Location = new System.Drawing.Point(37, 106);
+            this.taxPayableLabel.Location = new System.Drawing.Point(37, 98);
             this.taxPayableLabel.Name = "taxPayableLabel";
-            this.taxPayableLabel.Size = new System.Drawing.Size(0, 13);
+            this.taxPayableLabel.Size = new System.Drawing.Size(0, 12);
             this.taxPayableLabel.TabIndex = 2;
             // 
             // netIncomeLabel
             // 
             this.netIncomeLabel.AutoSize = true;
-            this.netIncomeLabel.Location = new System.Drawing.Point(37, 141);
+            this.netIncomeLabel.Location = new System.Drawing.Point(37, 130);
             this.netIncomeLabel.Name = "netIncomeLabel";
-            this.netIncomeLabel.Size = new System.Drawing.Size(0, 13);
+            this.netIncomeLabel.Size = new System.Drawing.Size(0, 12);
             this.netIncomeLabel.TabIndex = 3;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(32, 194);
+            this.calculateButton.Location = new System.Drawing.Point(37, 179);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(114, 29);
+            this.calculateButton.Size = new System.Drawing.Size(114, 27);
             this.calculateButton.TabIndex = 4;
             this.calculateButton.Text = "Calculate Tax";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -80,19 +82,29 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(191, 195);
+            this.exitButton.Location = new System.Drawing.Point(191, 180);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(58, 28);
+            this.exitButton.Size = new System.Drawing.Size(58, 26);
             this.exitButton.TabIndex = 5;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // payableLabel
+            // 
+            this.payableLabel.AutoSize = true;
+            this.payableLabel.Location = new System.Drawing.Point(43, 107);
+            this.payableLabel.Name = "payableLabel";
+            this.payableLabel.Size = new System.Drawing.Size(53, 12);
+            this.payableLabel.TabIndex = 6;
+            this.payableLabel.Text = "應交稅額";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 241);
+            this.Controls.Add(this.payableLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.netIncomeLabel);
@@ -101,6 +113,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Income Tax Calculation";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,6 +127,7 @@
         private System.Windows.Forms.Label netIncomeLabel;
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label payableLabel;
     }
 }
 

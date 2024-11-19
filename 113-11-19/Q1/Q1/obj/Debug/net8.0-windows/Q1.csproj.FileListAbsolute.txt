@@ -1,0 +1,7 @@
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.Form1.resources
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.AssemblyInfoInputs.cache
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.AssemblyInfo.cs
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\113-1-C-Sharp\113-11-19\Q1\Q1\obj\Debug\net8.0-windows\Q1.sourcelink.json
